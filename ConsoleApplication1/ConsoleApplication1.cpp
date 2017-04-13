@@ -3,14 +3,10 @@
 
 int main()
 {
-	char yourName[20];
-	char crushName[20];
-
-	printf("What is your name? \n");
-	scanf("%s", yourName);
-	printf("What is the name of your crush? \n");
-	scanf("%s", crushName);
-	printf("%s and %s will get married.\n\n", yourName, crushName);
+	char abc[] = "";
+	char Cloris[] = "Cloris";
+	printf(" %p", &Cloris);
+	scanf(" %s", abc);
 
     return 0;
 }
